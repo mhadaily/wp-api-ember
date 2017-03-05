@@ -1,11 +1,12 @@
 /* jshint node: true */
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   var ENV = {
     modulePrefix: 'wp-api-ember',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
+    wpHost: "https://www.your-wordpress-website.com",
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
